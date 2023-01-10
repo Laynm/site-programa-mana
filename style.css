@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 2000px;
+}
+
+header {
+    background: #E15F7E;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-radius: 0 0 35px 35px;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto; /* cima e baixo 0 | direita e esquerda automatico */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /* separando o conteudo */
+}
+
+nav a {
+    text-transform: uppercase; /* deixa as letras maisculas */
+    color: #FCFCDF;
+    font-weight: bold; /* para deixar a fonte negrito*/
+    font-size: 22px;
+    text-decoration: none; /*Tirar o sublinhado do texto*/
+}
+
+nav a:hover {  /* para dar destaque quando o usuario passa o mouse nos itens nav a */
+    color: #FFFFFF;
+    text-decoration: underline;
+}
