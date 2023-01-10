@@ -13,11 +13,11 @@ header {
 }
 
 .caixa {
-    width: 940px;
     margin: 0 auto; /* cima e baixo 0 | direita e esquerda automatico */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 50px;
 }
 
 nav {
